@@ -14,7 +14,7 @@ sub find_syns {
 }
 
 my @commands=@ARGV;
-my $seed=0;
+my $seed=rand 10000;
 my @order;
 for(@commands){
   if (/^\d+$/) {
